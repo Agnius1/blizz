@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../Fonts/static/Nunito-Bold.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+  top:2%;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.games {
+  margin-left: 20px;
+  flex-grow: 1;
+  
+  
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10000;
+}
+
+
+.dropdown-btn {
+  width: auto;
+  background-color: transparent;
+  color: rgb(245, 240, 240);
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.dropdown-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 180px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 99999;
+  padding: 10px 0;
+}
+
+
+.dropdown-content a {
+  color: rgb(214, 214, 214);
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: background 0.3s;
+  z-index: 99999;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+.language-dropdown .dropdown-btn {
+  margin-top: 5%;
+  font-size: 18px;
+  padding: 8px 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+
+.gif-container {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.gif-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vidtekstas {
+  position:relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.pnf {
+  font-size: 6vh;
+}
+
+.dispatched {
+  font-size: 3vh;
+  color: rgb(212, 214, 216);
+}
+
+.btnMurloc {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #3F90F9;
+  border-radius: 7px;
+  height: 8vh;
+  width: 20vw;
+  min-width: 120px;
+  min-height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.blue-box {
+  position: relative;
+  color: rgb(245, 240, 240);
+  width: 100%;
+  height: 75vh;
+  background-color: #0F2144;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  padding: 10px 0;
+
+}
+
+.blizzEnt {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.lowerNav {
+  position: absolute;
+  top:32%;
+}
+
+.battleNet {
+  position: absolute;
+  word-spacing: 10px;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dwnl {
+  color: rgb(245, 240, 240);
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 7px;
+}
+
+.linkas {
+  color: rgb(56, 124, 212);
+}
+
+.blizzEntLower2025 {
+  font-size: smaller;
+  color: rgb(182, 179, 179);
+  position: absolute;
+  word-spacing: 10px;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.trademarks {
+    font-size: smaller;
+    color: rgb(182, 179, 179);
+    position: absolute;
+    word-spacing: 10px;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.terms {
+  font-size:xx-small;
+  position: absolute;
+  top:75%;
+}
+
+
+.lowerLogos {
+  position: absolute;
+  word-spacing: 10px;
+  top: 79%;
+  left: 50%;
+  transform: translateX(-50%);
+}
