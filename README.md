@@ -37,7 +37,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://www.blizzard.com/en-us/404.git
+   git clone https://github.com/Agnius1/blizz.git
    ```
 2. Install NPM packages
    ```sh
