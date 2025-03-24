@@ -1,4 +1,4 @@
-# Astronautas
+# blizz 404
 
 _website design project_
 
@@ -8,24 +8,12 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/54-grupe-astronautas
-
-Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
+Site published at: https://github.com/Agnius1/blizz
+Design: https://www.blizzard.com/en-us/404
 
 ## 🎯 Project features/goals
 
-- ~~Github pages~~
-- ~~big screen only (no responsive design)~~
-- ~~fixed width and in the center of the screen~~
-- ~~social icons (FontAwesome)~~
-- ~~Google Fonts~~
-- ~~favicon~~
-- ~~copyright symbol~~
-- ~~button: user select none~~
-- ~~advanced CSS selectors:~~
-  - ~~button: hover state~~
-  - ~~main nav: hover state~~
-  - ~~main nav: selected menu option~~
+Learn to css
 
 ## 🧰 Getting Started
 
@@ -49,7 +37,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/front-end-by-rimantas/54-grupe-astronautas.git
+   git clone https://www.blizzard.com/en-us/404.git
    ```
 2. Install NPM packages
    ```sh
@@ -70,7 +58,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Agnius1: [Github](https://github.com/agnius1)
 
 ## ⚠️ License
 
